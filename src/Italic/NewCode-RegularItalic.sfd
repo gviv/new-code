@@ -4,7 +4,7 @@ FullName: New Code Italic
 FamilyName: New Code Italic
 Weight: Regular
 Copyright: (c) 2015 Adobe & Nathan Rutzky & Guillaume Vivies
-Version: 1.000
+Version: 1.001
 ItalicAngle: -9
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1432776643
-ModificationTime: 1555061568
+ModificationTime: 1555083977
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -11316,15 +11316,15 @@ StartChar: underscore
 Encoding: 95 95 341
 Width: 600
 Flags: HW
-HStem: -136 64<48 519>
+HStem: -136 64<-42 549>
 LayerCount: 2
 Fore
 SplineSet
-39 -136 m 1
- 48 -72 l 1
- 528 -72 l 1
- 519 -136 l 1
- 39 -136 l 1
+-51 -136 m 5
+ -42 -72 l 5
+ 558 -72 l 5
+ 549 -136 l 5
+ -51 -136 l 5
 EndSplineSet
 Validated: 1
 EndChar

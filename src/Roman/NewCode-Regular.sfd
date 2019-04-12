@@ -4,7 +4,7 @@ FullName: New Code
 FamilyName: New Code
 Weight: Regular
 Copyright: (c) 2015 Adobe & Nathan Rutzky & Guillaume Vivies
-Version: 1.000
+Version: 1.001
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1432775446
-ModificationTime: 1555061227
+ModificationTime: 1555083521
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -11210,15 +11210,15 @@ StartChar: underscore
 Encoding: 95 95 341
 Width: 600
 Flags: W
-HStem: -136 64<60 540>
+HStem: -136 64<0 600>
 LayerCount: 2
 Fore
 SplineSet
-60 -136 m 1
- 60 -72 l 1
- 540 -72 l 1
- 540 -136 l 1
- 60 -136 l 1
+0 -136 m 1
+ 0 -72 l 1
+ 600 -72 l 1
+ 600 -136 l 1
+ 0 -136 l 1
 EndSplineSet
 Validated: 1
 EndChar

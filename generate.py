@@ -2,7 +2,7 @@ import sys
 import fontforge as ff
 
 # Version of the generated font
-VERSION = "1.000"
+VERSION = "1.001"
 
 if len(sys.argv) != 3:
     sys.stderr.write("Usage: {} source_file font_name\n".format(sys.argv[0]))
