@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1432775451
-ModificationTime: 1555184743
+ModificationTime: 1555230061
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -13215,21 +13215,20 @@ StartChar: asciitilde
 Encoding: 126 126 399
 Width: 600
 GlyphClass: 2
-Flags: HMW
-HStem: 240 104<359.5 401 359.5 416> 316 104<199.5 240.5>
-VStem: 52 496<275 385>
+Flags: W
+HStem: 216 114<350.025 429.057> 330 114<173.387 249.975>
 LayerCount: 2
 Fore
 SplineSet
-140 234 m 1x60
- 52 275 l 1
- 94 379 153 420 215 420 c 0x60
- 298 420 332 344 387 344 c 0
- 415 344 441 370 460 426 c 1
- 548 385 l 1
- 506 281 447 240 385 240 c 0xa0
- 302 240 268 316 213 316 c 0
- 186 316 159 289 140 234 c 1x60
+124 209 m 1x40
+ 27 255 l 1
+ 73 369 138 444 206 444 c 0x40
+ 297 444 336 330 396 330 c 0
+ 427 330 455 389 476 451 c 1
+ 573 405 l 1
+ 527 291 462 216 394 216 c 0x80
+ 303 216 264 330 204 330 c 0
+ 174 330 145 269 124 209 c 1x40
 EndSplineSet
 Validated: 1
 EndChar
