@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1432775451
-ModificationTime: 1555332300
+ModificationTime: 1555434134
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -57,23 +57,6 @@ OS2XHeight: 510
 OS2Vendor: 'GVIV'
 OS2CodePages: 20000193.00000000
 OS2UnicodeRanges: 00000007.00000000.00000000.00000000
-Lookup: 1 0 0 "'aalt' Activer toutes les variantes dans Latin lookup 0" { "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 0"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 3 0 0 "'aalt' Activer toutes les variantes dans Latin lookup 1" { "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 6 0 0 "'ccmp' Composition et d+AOkA-composition de glyphe (CJC) dans Latin lookup 2" { "'ccmp' Composition et d+AOkA-composition de glyphe (CJC) dans Latin lookup 2 contextuel 0"  "'ccmp' Composition et d+AOkA-composition de glyphe (CJC) dans Latin lookup 2 contextuel 1"  } ['ccmp' ('latn' <'dflt' > ) ]
-Lookup: 6 0 0 "'locl' Formes localis+AOkA-es g+AOkA-ographiquement dans Latin lookup 3" { "'locl' Formes localis+AOkA-es g+AOkA-ographiquement dans Latin lookup 3 contextuel 0"  "'locl' Formes localis+AOkA-es g+AOkA-ographiquement dans Latin lookup 3 contextuel 1"  } ['locl' ('latn' <'CAT ' > ) ]
-Lookup: 1 0 0 "'subs' Indice dans Latin lookup 4" { "sous-table 'subs' Indice dans Latin lookup 4" ("inferior") } ['subs' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 1 0 0 "'sinf' Indices scientifiques dans Latin lookup 5" { "sous-table 'sinf' Indices scientifiques dans Latin lookup 5"  } ['sinf' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 1 0 0 "'sups' Exposant dans Latin lookup 6" { "sous-table 'sups' Exposant dans Latin lookup 6" ("superior") } ['sups' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 1 0 0 "'numr' Num+AOkA-rateurs dans Latin lookup 7" { "sous-table 'numr' Num+AOkA-rateurs dans Latin lookup 7"  } ['numr' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 1 0 0 "'dnom' D+AOkA-nominateurs dans Latin lookup 8" { "sous-table 'dnom' D+AOkA-nominateurs dans Latin lookup 8"  } ['dnom' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 1 0 0 "'frac' Fractions dans Latin lookup 9" { "sous-table 'frac' Fractions dans Latin lookup 9"  } ['frac' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 1 0 0 "'frac' Fractions dans Latin lookup 10" { "sous-table 'frac' Fractions dans Latin lookup 10"  } ['frac' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 6 0 0 "'frac' Fractions dans Latin lookup 11" { "'frac' Fractions dans Latin lookup 11 contextuel 0"  "'frac' Fractions dans Latin lookup 11 contextuel 1"  } ['frac' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 6 0 0 "'ordn' Ordinaux dans Latin lookup 12" { "'ordn' Ordinaux dans Latin lookup 12 contextuel 0"  "'ordn' Ordinaux dans Latin lookup 12 contextuel 1"  } ['ordn' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 1 0 0 "'salt' Alternatives stylistiques dans Latin lookup 13" { "sous-table 'salt' Alternatives stylistiques dans Latin lookup 13"  } ['salt' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 1 0 0 "Substitution simple lookups14" { "sous-table Substitution simple lookups14"  } []
-Lookup: 4 0 0 "Substitution de ligature lookups15" { "sous-table Substitution de ligature lookups15"  } []
-Lookup: 1 0 0 "Substitution simple lookups16" { "sous-table Substitution simple lookups16"  } []
 Lookup: 260 0 0 "'mark' Positionnement de signe dans Latin lookup 0" { "sous-table 'mark' Positionnement de signe dans Latin lookup 0"  } ['mark' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
 Lookup: 262 256 0 "'mkmk' Signe sur signe dans Latin lookup 1" { "sous-table 'mkmk' Signe sur signe dans Latin lookup 1"  } ['mkmk' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
 Lookup: 262 512 0 "'mkmk' Signe sur signe dans Latin lookup 2" { "sous-table 'mkmk' Signe sur signe dans Latin lookup 2"  } ['mkmk' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
@@ -81,65 +64,6 @@ MarkAttachClasses: 3
 "Classe de signes 1" 7 uni0327
 "Classe de signes 2" 93 acutecomb uni0306 uni030C uni0302 uni0308 uni0307 gravecomb uni030B uni0304 uni030A tildecomb
 DEI: 91125
-ChainSub2: coverage "'ordn' Ordinaux dans Latin lookup 12 contextuel 1" 0 0 0 1
- 1 1 0
-  Coverage: 3 O o
-  BCoverage: 49 zero one two three four five six seven eight nine
- 1
-  SeqLookup: 0 "Substitution simple lookups16"
-EndFPST
-ChainSub2: coverage "'ordn' Ordinaux dans Latin lookup 12 contextuel 0" 0 0 0 1
- 1 1 0
-  Coverage: 3 A a
-  BCoverage: 49 zero one two three four five six seven eight nine
- 1
-  SeqLookup: 0 "Substitution simple lookups16"
-EndFPST
-ChainSub2: coverage "'frac' Fractions dans Latin lookup 11 contextuel 1" 0 0 0 1
- 1 1 0
-  Coverage: 99 zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr
-  BCoverage: 99 zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom
- 1
-  SeqLookup: 0 "Substitution simple lookups16"
-EndFPST
-ChainSub2: coverage "'frac' Fractions dans Latin lookup 11 contextuel 0" 0 0 0 1
- 1 1 0
-  Coverage: 99 zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr
-  BCoverage: 8 fraction
- 1
-  SeqLookup: 0 "Substitution simple lookups16"
-EndFPST
-ChainSub2: coverage "'locl' Formes localis+AOkA-es g+AOkA-ographiquement dans Latin lookup 3 contextuel 1" 0 0 0 1
- 2 0 1
-  Coverage: 1 L
-  Coverage: 14 periodcentered
-  FCoverage: 1 L
- 1
-  SeqLookup: 0 "Substitution de ligature lookups15"
-EndFPST
-ChainSub2: coverage "'locl' Formes localis+AOkA-es g+AOkA-ographiquement dans Latin lookup 3 contextuel 0" 0 0 0 1
- 2 0 1
-  Coverage: 1 l
-  Coverage: 14 periodcentered
-  FCoverage: 1 l
- 1
-  SeqLookup: 0 "Substitution de ligature lookups15"
-EndFPST
-ChainSub2: coverage "'ccmp' Composition et d+AOkA-composition de glyphe (CJC) dans Latin lookup 2 contextuel 1" 0 0 0 1
- 1 0 2
-  Coverage: 3 i j
-  FCoverage: 15 uni0327 uni0328
-  FCoverage: 93 acutecomb uni0306 uni030C uni0302 uni0308 uni0307 gravecomb uni030B uni0304 uni030A tildecomb
- 1
-  SeqLookup: 0 "Substitution simple lookups14"
-EndFPST
-ChainSub2: coverage "'ccmp' Composition et d+AOkA-composition de glyphe (CJC) dans Latin lookup 2 contextuel 0" 0 0 0 1
- 1 0 1
-  Coverage: 3 i j
-  FCoverage: 93 acutecomb uni0306 uni030C uni0302 uni0308 uni0307 gravecomb uni030B uni0304 uni030A tildecomb
- 1
-  SeqLookup: 0 "Substitution simple lookups14"
-EndFPST
 LangName: 1033 "+AKkA 2015 Adobe & Nathan Rutzky & Guillaume Vivies" "" "Regular" "GVIV;NewCode-Bold" "" "" "" "" "Adobe Systems Incorporated" "Guillaume Vivies & Nathan Rutzky & Paul D. Hunt" "" "www.adobe.com" "www.nath.co" "SIL Open Font License" "" "" "New Code" "Bold"
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -238,8 +162,6 @@ SplineSet
  229 273 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table Substitution simple lookups16" ordfeminine
-Substitution2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 0" ordfeminine
 EndChar
 
 StartChar: Aacute
@@ -2307,7 +2229,6 @@ SplineSet
  551 304 510 268 453 268 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "sous-table Substitution de ligature lookups15" L periodcentered
 EndChar
 
 StartChar: Lslash
@@ -2581,8 +2502,6 @@ SplineSet
  189 200 232 115 300 115 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table Substitution simple lookups16" ordmasculine
-Substitution2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 0" ordmasculine
 EndChar
 
 StartChar: Oacute
@@ -4548,8 +4467,6 @@ SplineSet
  202 118 229 102 271 102 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table Substitution simple lookups16" ordfeminine
-Substitution2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 0" ordfeminine
 EndChar
 
 StartChar: aacute
@@ -6280,8 +6197,6 @@ SplineSet
  61 0 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table Substitution simple lookups14" dotlessi
-Substitution2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 0" dotlessi
 EndChar
 
 StartChar: dotlessi
@@ -6667,8 +6582,6 @@ SplineSet
  425 -111 375 -217 195 -217 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table Substitution simple lookups14" uni0237
-Substitution2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 0" uni0237
 EndChar
 
 StartChar: uni0237
@@ -6906,7 +6819,6 @@ SplineSet
  569 308 528 271 471 271 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "sous-table Substitution de ligature lookups15" l periodcentered
 EndChar
 
 StartChar: lslash
@@ -7185,8 +7097,6 @@ SplineSet
  198 165 232 107 300 107 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table Substitution simple lookups16" ordmasculine
-Substitution2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 0" ordmasculine
 EndChar
 
 StartChar: oacute
@@ -9482,14 +9392,6 @@ SplineSet
  249 113 273 102 300 102 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table 'salt' Alternatives stylistiques dans Latin lookup 13" zero.alt
-Substitution2: "sous-table 'frac' Fractions dans Latin lookup 10" zero.numr
-Substitution2: "sous-table 'dnom' D+AOkA-nominateurs dans Latin lookup 8" zero.dnom
-Substitution2: "sous-table 'numr' Num+AOkA-rateurs dans Latin lookup 7" zero.numr
-Substitution2: "sous-table 'sups' Exposant dans Latin lookup 6" zero.sups
-Substitution2: "sous-table 'sinf' Indices scientifiques dans Latin lookup 5" zero.subs
-Substitution2: "sous-table 'subs' Indice dans Latin lookup 4" zero.subs
-AlternateSubs2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 1" zero.subs zero.sups zero.numr zero.dnom zero.alt
 EndChar
 
 StartChar: one
@@ -9515,13 +9417,6 @@ SplineSet
  82 0 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table 'frac' Fractions dans Latin lookup 10" one.numr
-Substitution2: "sous-table 'dnom' D+AOkA-nominateurs dans Latin lookup 8" one.dnom
-Substitution2: "sous-table 'numr' Num+AOkA-rateurs dans Latin lookup 7" one.numr
-Substitution2: "sous-table 'sups' Exposant dans Latin lookup 6" one.sups
-Substitution2: "sous-table 'sinf' Indices scientifiques dans Latin lookup 5" one.subs
-Substitution2: "sous-table 'subs' Indice dans Latin lookup 4" one.subs
-AlternateSubs2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 1" one.subs one.sups one.numr one.dnom
 EndChar
 
 StartChar: two
@@ -9548,13 +9443,6 @@ SplineSet
  58 0 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table 'frac' Fractions dans Latin lookup 10" two.numr
-Substitution2: "sous-table 'dnom' D+AOkA-nominateurs dans Latin lookup 8" two.dnom
-Substitution2: "sous-table 'numr' Num+AOkA-rateurs dans Latin lookup 7" two.numr
-Substitution2: "sous-table 'sups' Exposant dans Latin lookup 6" two.sups
-Substitution2: "sous-table 'sinf' Indices scientifiques dans Latin lookup 5" two.subs
-Substitution2: "sous-table 'subs' Indice dans Latin lookup 4" two.subs
-AlternateSubs2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 1" two.subs two.sups two.numr two.dnom
 EndChar
 
 StartChar: three
@@ -9585,13 +9473,6 @@ SplineSet
  531 57 413 -12 279 -12 c 0xe8
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table 'frac' Fractions dans Latin lookup 10" three.numr
-Substitution2: "sous-table 'dnom' D+AOkA-nominateurs dans Latin lookup 8" three.dnom
-Substitution2: "sous-table 'numr' Num+AOkA-rateurs dans Latin lookup 7" three.numr
-Substitution2: "sous-table 'sups' Exposant dans Latin lookup 6" three.sups
-Substitution2: "sous-table 'sinf' Indices scientifiques dans Latin lookup 5" three.subs
-Substitution2: "sous-table 'subs' Indice dans Latin lookup 4" three.subs
-AlternateSubs2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 1" three.subs three.sups three.numr three.dnom
 EndChar
 
 StartChar: four
@@ -9621,14 +9502,6 @@ SplineSet
  341 0 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table 'salt' Alternatives stylistiques dans Latin lookup 13" four.alt
-Substitution2: "sous-table 'frac' Fractions dans Latin lookup 10" four.numr
-Substitution2: "sous-table 'dnom' D+AOkA-nominateurs dans Latin lookup 8" four.dnom
-Substitution2: "sous-table 'numr' Num+AOkA-rateurs dans Latin lookup 7" four.numr
-Substitution2: "sous-table 'sups' Exposant dans Latin lookup 6" four.sups
-Substitution2: "sous-table 'sinf' Indices scientifiques dans Latin lookup 5" four.subs
-Substitution2: "sous-table 'subs' Indice dans Latin lookup 4" four.subs
-AlternateSubs2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 1" four.subs four.sups four.numr four.dnom four.alt
 EndChar
 
 StartChar: five
@@ -9658,13 +9531,6 @@ SplineSet
  532 71 414 -12 283 -12 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table 'frac' Fractions dans Latin lookup 10" five.numr
-Substitution2: "sous-table 'dnom' D+AOkA-nominateurs dans Latin lookup 8" five.dnom
-Substitution2: "sous-table 'numr' Num+AOkA-rateurs dans Latin lookup 7" five.numr
-Substitution2: "sous-table 'sups' Exposant dans Latin lookup 6" five.sups
-Substitution2: "sous-table 'sinf' Indices scientifiques dans Latin lookup 5" five.subs
-Substitution2: "sous-table 'subs' Indice dans Latin lookup 4" five.subs
-AlternateSubs2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 1" five.subs five.sups five.numr five.dnom
 EndChar
 
 StartChar: six
@@ -9693,13 +9559,6 @@ SplineSet
  215 134 264 98 314 98 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table 'frac' Fractions dans Latin lookup 10" six.numr
-Substitution2: "sous-table 'dnom' D+AOkA-nominateurs dans Latin lookup 8" six.dnom
-Substitution2: "sous-table 'numr' Num+AOkA-rateurs dans Latin lookup 7" six.numr
-Substitution2: "sous-table 'sups' Exposant dans Latin lookup 6" six.sups
-Substitution2: "sous-table 'sinf' Indices scientifiques dans Latin lookup 5" six.subs
-Substitution2: "sous-table 'subs' Indice dans Latin lookup 4" six.subs
-AlternateSubs2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 1" six.subs six.sups six.numr six.dnom
 EndChar
 
 StartChar: seven
@@ -9721,13 +9580,6 @@ SplineSet
  193 0 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table 'frac' Fractions dans Latin lookup 10" seven.numr
-Substitution2: "sous-table 'dnom' D+AOkA-nominateurs dans Latin lookup 8" seven.dnom
-Substitution2: "sous-table 'numr' Num+AOkA-rateurs dans Latin lookup 7" seven.numr
-Substitution2: "sous-table 'sups' Exposant dans Latin lookup 6" seven.sups
-Substitution2: "sous-table 'sinf' Indices scientifiques dans Latin lookup 5" seven.subs
-Substitution2: "sous-table 'subs' Indice dans Latin lookup 4" seven.subs
-AlternateSubs2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 1" seven.subs seven.sups seven.numr seven.dnom
 EndChar
 
 StartChar: eight
@@ -9762,13 +9614,6 @@ SplineSet
  188 126 238 90 303 90 c 0xe4
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table 'frac' Fractions dans Latin lookup 10" eight.numr
-Substitution2: "sous-table 'dnom' D+AOkA-nominateurs dans Latin lookup 8" eight.dnom
-Substitution2: "sous-table 'numr' Num+AOkA-rateurs dans Latin lookup 7" eight.numr
-Substitution2: "sous-table 'sups' Exposant dans Latin lookup 6" eight.sups
-Substitution2: "sous-table 'sinf' Indices scientifiques dans Latin lookup 5" eight.subs
-Substitution2: "sous-table 'subs' Indice dans Latin lookup 4" eight.subs
-AlternateSubs2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 1" eight.subs eight.sups eight.numr eight.dnom
 EndChar
 
 StartChar: nine
@@ -9797,13 +9642,6 @@ SplineSet
  187 382 225 352 282 352 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table 'frac' Fractions dans Latin lookup 10" nine.numr
-Substitution2: "sous-table 'dnom' D+AOkA-nominateurs dans Latin lookup 8" nine.dnom
-Substitution2: "sous-table 'numr' Num+AOkA-rateurs dans Latin lookup 7" nine.numr
-Substitution2: "sous-table 'sups' Exposant dans Latin lookup 6" nine.sups
-Substitution2: "sous-table 'sinf' Indices scientifiques dans Latin lookup 5" nine.subs
-Substitution2: "sous-table 'subs' Indice dans Latin lookup 4" nine.subs
-AlternateSubs2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 1" nine.subs nine.sups nine.numr nine.dnom
 EndChar
 
 StartChar: zero.alt
@@ -10699,8 +10537,6 @@ SplineSet
  252 413 275 390 300 390 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table Substitution simple lookups16" zero.dnom
-Substitution2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 0" zero.dnom
 EndChar
 
 StartChar: one.numr
@@ -10722,8 +10558,6 @@ SplineSet
  277 324 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table Substitution simple lookups16" one.dnom
-Substitution2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 0" one.dnom
 EndChar
 
 StartChar: two.numr
@@ -10749,8 +10583,6 @@ SplineSet
  172 324 l 1xa0
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table Substitution simple lookups16" two.dnom
-Substitution2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 0" two.dnom
 EndChar
 
 StartChar: three.numr
@@ -10780,8 +10612,6 @@ SplineSet
  434 353 374 312 301 312 c 0xe8
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table Substitution simple lookups16" three.dnom
-Substitution2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 0" three.dnom
 EndChar
 
 StartChar: four.numr
@@ -10813,8 +10643,6 @@ SplineSet
  256 450 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table Substitution simple lookups16" four.dnom
-Substitution2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 0" four.dnom
 EndChar
 
 StartChar: five.numr
@@ -10844,8 +10672,6 @@ SplineSet
  436 360 379 312 302 312 c 0xbc
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table Substitution simple lookups16" five.dnom
-Substitution2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 0" five.dnom
 EndChar
 
 StartChar: six.numr
@@ -10874,8 +10700,6 @@ SplineSet
  267 400 289 390 307 390 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table Substitution simple lookups16" six.dnom
-Substitution2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 0" six.dnom
 EndChar
 
 StartChar: seven.numr
@@ -10897,8 +10721,6 @@ SplineSet
  233 324 l 1xa0
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table Substitution simple lookups16" seven.dnom
-Substitution2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 0" seven.dnom
 EndChar
 
 StartChar: eight.numr
@@ -10933,8 +10755,6 @@ SplineSet
  260 392 277 380 300 380 c 0xf2
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table Substitution simple lookups16" eight.dnom
-Substitution2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 0" eight.dnom
 EndChar
 
 StartChar: nine.numr
@@ -10963,8 +10783,6 @@ SplineSet
  258 516 271 505 295 505 c 0xdc
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table Substitution simple lookups16" nine.dnom
-Substitution2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 0" nine.dnom
 EndChar
 
 StartChar: zero.sups
@@ -11264,8 +11082,6 @@ SplineSet
  184 91 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table 'salt' Alternatives stylistiques dans Latin lookup 13" asterisk.alt
-Substitution2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 0" asterisk.alt
 EndChar
 
 StartChar: backslash
@@ -11364,12 +11180,6 @@ SplineSet
  429 -84 357 -175 219 -217 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table 'dnom' D+AOkA-nominateurs dans Latin lookup 8" comma.dnom
-Substitution2: "sous-table 'numr' Num+AOkA-rateurs dans Latin lookup 7" comma.numr
-Substitution2: "sous-table 'sups' Exposant dans Latin lookup 6" comma.sups
-Substitution2: "sous-table 'sinf' Indices scientifiques dans Latin lookup 5" comma.subs
-Substitution2: "sous-table 'subs' Indice dans Latin lookup 4" comma.subs
-AlternateSubs2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 1" comma.subs comma.sups comma.numr comma.dnom
 EndChar
 
 StartChar: ellipsis
@@ -11509,12 +11319,6 @@ SplineSet
  416 39 369 -12 300 -12 c 0xa0
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table 'dnom' D+AOkA-nominateurs dans Latin lookup 8" period.dnom
-Substitution2: "sous-table 'numr' Num+AOkA-rateurs dans Latin lookup 7" period.numr
-Substitution2: "sous-table 'sups' Exposant dans Latin lookup 6" period.sups
-Substitution2: "sous-table 'sinf' Indices scientifiques dans Latin lookup 5" period.subs
-Substitution2: "sous-table 'subs' Indice dans Latin lookup 4" period.subs
-AlternateSubs2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 1" period.subs period.sups period.numr period.dnom
 EndChar
 
 StartChar: question
@@ -11664,8 +11468,6 @@ SplineSet
  24 -32 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table 'frac' Fractions dans Latin lookup 9" fraction
-Substitution2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 0" fraction
 EndChar
 
 StartChar: underscore
@@ -11996,12 +11798,6 @@ SplineSet
  392 -179 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table 'dnom' D+AOkA-nominateurs dans Latin lookup 8" parenleft.dnom
-Substitution2: "sous-table 'numr' Num+AOkA-rateurs dans Latin lookup 7" parenleft.numr
-Substitution2: "sous-table 'sups' Exposant dans Latin lookup 6" parenleft.sups
-Substitution2: "sous-table 'sinf' Indices scientifiques dans Latin lookup 5" parenleft.subs
-Substitution2: "sous-table 'subs' Indice dans Latin lookup 4" parenleft.subs
-AlternateSubs2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 1" parenleft.subs parenleft.sups parenleft.numr parenleft.dnom
 EndChar
 
 StartChar: parenright
@@ -12022,12 +11818,6 @@ SplineSet
  419 90 338 -64 208 -179 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "sous-table 'dnom' D+AOkA-nominateurs dans Latin lookup 8" parenright.dnom
-Substitution2: "sous-table 'numr' Num+AOkA-rateurs dans Latin lookup 7" parenright.numr
-Substitution2: "sous-table 'sups' Exposant dans Latin lookup 6" parenright.sups
-Substitution2: "sous-table 'sinf' Indices scientifiques dans Latin lookup 5" parenright.subs
-Substitution2: "sous-table 'subs' Indice dans Latin lookup 4" parenright.subs
-AlternateSubs2: "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 1" parenright.subs parenright.sups parenright.numr parenright.dnom
 EndChar
 
 StartChar: parenleft.dnom

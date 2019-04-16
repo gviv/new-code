@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1432776643
-ModificationTime: 1555332812
+ModificationTime: 1555434157
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -57,23 +57,6 @@ OS2XHeight: 510
 OS2Vendor: 'GVIV'
 OS2CodePages: 20000193.00000000
 OS2UnicodeRanges: 00000007.00000000.00000000.00000000
-Lookup: 1 0 0 "'aalt' Activer toutes les variantes dans Latin lookup 0" { "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 0"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 3 0 0 "'aalt' Activer toutes les variantes dans Latin lookup 1" { "sous-table 'aalt' Activer toutes les variantes dans Latin lookup 1"  } ['aalt' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 6 0 0 "'ccmp' Composition et d+AOkA-composition de glyphe (CJC) dans Latin lookup 2" { "'ccmp' Composition et d+AOkA-composition de glyphe (CJC) dans Latin lookup 2 contextuel 0"  "'ccmp' Composition et d+AOkA-composition de glyphe (CJC) dans Latin lookup 2 contextuel 1"  } ['ccmp' ('latn' <'dflt' > ) ]
-Lookup: 6 0 0 "'locl' Formes localis+AOkA-es g+AOkA-ographiquement dans Latin lookup 3" { "'locl' Formes localis+AOkA-es g+AOkA-ographiquement dans Latin lookup 3 contextuel 0"  "'locl' Formes localis+AOkA-es g+AOkA-ographiquement dans Latin lookup 3 contextuel 1"  } ['locl' ('latn' <'CAT ' > ) ]
-Lookup: 1 0 0 "'subs' Indice dans Latin lookup 4" { "sous-table 'subs' Indice dans Latin lookup 4" ("inferior") } ['subs' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 1 0 0 "'sinf' Indices scientifiques dans Latin lookup 5" { "sous-table 'sinf' Indices scientifiques dans Latin lookup 5"  } ['sinf' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 1 0 0 "'sups' Exposant dans Latin lookup 6" { "sous-table 'sups' Exposant dans Latin lookup 6" ("superior") } ['sups' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 1 0 0 "'numr' Num+AOkA-rateurs dans Latin lookup 7" { "sous-table 'numr' Num+AOkA-rateurs dans Latin lookup 7"  } ['numr' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 1 0 0 "'dnom' D+AOkA-nominateurs dans Latin lookup 8" { "sous-table 'dnom' D+AOkA-nominateurs dans Latin lookup 8"  } ['dnom' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 1 0 0 "'frac' Fractions dans Latin lookup 9" { "sous-table 'frac' Fractions dans Latin lookup 9"  } ['frac' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 1 0 0 "'frac' Fractions dans Latin lookup 10" { "sous-table 'frac' Fractions dans Latin lookup 10"  } ['frac' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 6 0 0 "'frac' Fractions dans Latin lookup 11" { "'frac' Fractions dans Latin lookup 11 contextuel 0"  "'frac' Fractions dans Latin lookup 11 contextuel 1"  } ['frac' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 6 0 0 "'ordn' Ordinaux dans Latin lookup 12" { "'ordn' Ordinaux dans Latin lookup 12 contextuel 0"  "'ordn' Ordinaux dans Latin lookup 12 contextuel 1"  } ['ordn' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 1 0 0 "'salt' Alternatives stylistiques dans Latin lookup 13" { "sous-table 'salt' Alternatives stylistiques dans Latin lookup 13"  } ['salt' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
-Lookup: 1 0 0 "Substitution simple lookups14" { "sous-table Substitution simple lookups14"  } []
-Lookup: 4 0 0 "Substitution de ligature lookups15" { "sous-table Substitution de ligature lookups15"  } []
-Lookup: 1 0 0 "Substitution simple lookups16" { "sous-table Substitution simple lookups16"  } []
 Lookup: 260 0 0 "'mark' Positionnement de signe dans Latin lookup 0" { "sous-table 'mark' Positionnement de signe dans Latin lookup 0"  } ['mark' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
 Lookup: 262 256 0 "'mkmk' Signe sur signe dans Latin lookup 1" { "sous-table 'mkmk' Signe sur signe dans Latin lookup 1"  } ['mkmk' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
 Lookup: 262 512 0 "'mkmk' Signe sur signe dans Latin lookup 2" { "sous-table 'mkmk' Signe sur signe dans Latin lookup 2"  } ['mkmk' ('DFLT' <'dflt' > 'latn' <'CAT ' 'dflt' > ) ]
@@ -81,65 +64,6 @@ MarkAttachClasses: 3
 "Classe de signes 1" 7 uni0327
 "Classe de signes 2" 93 acutecomb uni0306 uni030C uni0302 uni0308 uni0307 gravecomb uni030B uni0304 uni030A tildecomb
 DEI: 91125
-ChainSub2: coverage "'ordn' Ordinaux dans Latin lookup 12 contextuel 1" 0 0 0 1
- 1 1 0
-  Coverage: 3 O o
-  BCoverage: 49 zero one two three four five six seven eight nine
- 1
-  SeqLookup: 0 "Substitution simple lookups16"
-EndFPST
-ChainSub2: coverage "'ordn' Ordinaux dans Latin lookup 12 contextuel 0" 0 0 0 1
- 1 1 0
-  Coverage: 3 A a
-  BCoverage: 49 zero one two three four five six seven eight nine
- 1
-  SeqLookup: 0 "Substitution simple lookups16"
-EndFPST
-ChainSub2: coverage "'frac' Fractions dans Latin lookup 11 contextuel 1" 0 0 0 1
- 1 1 0
-  Coverage: 99 zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr
-  BCoverage: 99 zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom
- 1
-  SeqLookup: 0 "Substitution simple lookups16"
-EndFPST
-ChainSub2: coverage "'frac' Fractions dans Latin lookup 11 contextuel 0" 0 0 0 1
- 1 1 0
-  Coverage: 99 zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr
-  BCoverage: 8 fraction
- 1
-  SeqLookup: 0 "Substitution simple lookups16"
-EndFPST
-ChainSub2: coverage "'locl' Formes localis+AOkA-es g+AOkA-ographiquement dans Latin lookup 3 contextuel 1" 0 0 0 1
- 2 0 1
-  Coverage: 1 L
-  Coverage: 14 periodcentered
-  FCoverage: 1 L
- 1
-  SeqLookup: 0 "Substitution de ligature lookups15"
-EndFPST
-ChainSub2: coverage "'locl' Formes localis+AOkA-es g+AOkA-ographiquement dans Latin lookup 3 contextuel 0" 0 0 0 1
- 2 0 1
-  Coverage: 1 l
-  Coverage: 14 periodcentered
-  FCoverage: 1 l
- 1
-  SeqLookup: 0 "Substitution de ligature lookups15"
-EndFPST
-ChainSub2: coverage "'ccmp' Composition et d+AOkA-composition de glyphe (CJC) dans Latin lookup 2 contextuel 1" 0 0 0 1
- 1 0 2
-  Coverage: 3 i j
-  FCoverage: 15 uni0327 uni0328
-  FCoverage: 93 acutecomb uni0306 uni030C uni0302 uni0308 uni0307 gravecomb uni030B uni0304 uni030A tildecomb
- 1
-  SeqLookup: 0 "Substitution simple lookups14"
-EndFPST
-ChainSub2: coverage "'ccmp' Composition et d+AOkA-composition de glyphe (CJC) dans Latin lookup 2 contextuel 0" 0 0 0 1
- 1 0 1
-  Coverage: 3 i j
-  FCoverage: 93 acutecomb uni0306 uni030C uni0302 uni0308 uni0307 gravecomb uni030B uni0304 uni030A tildecomb
- 1
-  SeqLookup: 0 "Substitution simple lookups14"
-EndFPST
 LangName: 1033 "+AKkA 2015 Adobe & Nathan Rutzky & Guillaume Vivies" "" "Regular" "GVIV;NewCode-RegularItalic" "" "" "" "" "Adobe Systems Incorporated" "Guillaume Vivies & Nathan Rutzky & Paul D. Hunt" "" "www.adobe.com" "www.nath.co" "SIL Open Font License" "" "" "New Code" "Regular Italic"
 Encoding: UnicodeBmp
 UnicodeInterp: none
