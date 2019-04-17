@@ -21,6 +21,13 @@ clean:
 
 # Fonts rules
 $(FONTS_DIR)%.otf: $(SRC_DIR)%.sfd
-	@mkdir -p $(@D)
 	@echo "Generating $@"
 	@$(FF) -quiet -lang=py -script generate.py $< $@
+
+# Adds, for each font, its directory as an order-only prerequisite (avoids
+# redundant calls to mkdir)
+$(foreach FONT, $(FONTS), $(eval $(FONT): | $(dir $(FONT))))
+
+# Fonts' directory rules
+$(FONTS_DIR)%/:
+	@mkdir -p $@
