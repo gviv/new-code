@@ -18,7 +18,6 @@ if font.validate() != 0:
 
 # Updates the font version
 font.version = VERSION
-font.save()
 
 # Generates the font
 font.generate(sys.argv[2])
