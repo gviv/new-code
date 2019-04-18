@@ -16,6 +16,9 @@ if font.validate() != 0:
     sys.stderr.write("The font contains errors, generation cancelled.\n")
     sys.exit(2)
 
+# Adds calt feature
+font.mergeFeature("calt.fea")
+
 # Updates the font version
 font.version = VERSION
 
