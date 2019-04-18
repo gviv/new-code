@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1432776643
-ModificationTime: 1555434157
+ModificationTime: 1555594789
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -71,7 +71,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 12 12 11
+WinInfo: 65472 12 11
 BeginPrivate: 8
 BlueValues 31 [-13 0 510 522 660 672 718 729]
 OtherBlues 11 [-217 -205]
@@ -82,9 +82,13 @@ StdVW 4 [62]
 StemSnapH 4 [50]
 StemSnapV 4 [62]
 EndPrivate
+Grid
+-390.114257812 1330 m 0
+ -706.114257812 -670 l 1024
+EndSplineSet
 TeXData: 1 0 432138 629145 314572 209715 534774 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Ancre-0" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-1" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-2" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-3" "sous-table 'mkmk' Signe sur signe dans Latin lookup 1" "Ancre-4" "sous-table 'mkmk' Signe sur signe dans Latin lookup 2"
-BeginChars: 65599 496
+BeginChars: 65600 497
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -15253,6 +15257,28 @@ SplineSet
  609 -262 l 1
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: period_period.liga
+Encoding: 65599 -1 496
+Width: 600
+Flags: WO
+HStem: -12 156<-243.895 -156.688 156.105 243.312>
+VStem: -275 151<19.9175 112.893> 125 151<19.9175 112.893>
+LayerCount: 2
+Fore
+SplineSet
+-124 81 m 4
+ -124 25 -169 -12 -212 -12 c 4
+ -248 -12 -275 13 -275 52 c 4
+ -275 109 -230 144 -188 144 c 4
+ -152 144 -124 120 -124 81 c 4
+276 81 m 4
+ 276 25 231 -12 188 -12 c 4
+ 152 -12 125 13 125 52 c 4
+ 125 109 170 144 212 144 c 4
+ 248 144 276 120 276 81 c 4
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

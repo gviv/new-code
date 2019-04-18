@@ -10,7 +10,9 @@ let output_file = "calt.fea"
     should merge. For example, the ligature ["hyphen"; "greater"] tells the font
     to replace `->' by a glyph named `hyphen_greater.liga'. The latter
     is assumed to exist in the font. *)
-let ligas = []
+let ligas = [
+  ["period"; "period"];
+]
 
 (** General list iterator. *)
 let rec it_list f l a =

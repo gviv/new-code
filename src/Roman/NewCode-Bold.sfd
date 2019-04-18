@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1432775451
-ModificationTime: 1555434134
+ModificationTime: 1555594179
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -71,7 +71,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 24 12 12
+WinInfo: 65460 12 12
 BeginPrivate: 8
 BlueValues 31 [-12 0 510 523 660 672 750 766]
 OtherBlues 11 [-217 -205]
@@ -82,8 +82,12 @@ StdVW 5 [150]
 StemSnapH 5 [115]
 StemSnapV 5 [150]
 EndPrivate
+Grid
+-600 1250 m 0
+ -600 -750 l 1024
+EndSplineSet
 AnchorClass2: "Ancre-0" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-1" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-2" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-3" "sous-table 'mkmk' Signe sur signe dans Latin lookup 1" "Ancre-4" "sous-table 'mkmk' Signe sur signe dans Latin lookup 2"
-BeginChars: 65599 496
+BeginChars: 65600 497
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -11312,11 +11316,11 @@ VStem: 184 232<72 138>
 LayerCount: 2
 Fore
 SplineSet
-300 -12 m 0xa0
- 231 -12 184 39 184 105 c 0
- 184 171 231 223 300 223 c 0x60
- 369 223 416 171 416 105 c 0
- 416 39 369 -12 300 -12 c 0xa0
+300 -12 m 4xa0
+ 231 -12 184 39 184 105 c 4
+ 184 171 231 223 300 223 c 4x60
+ 369 223 416 171 416 105 c 4
+ 416 39 369 -12 300 -12 c 4xa0
 EndSplineSet
 Validated: 1
 EndChar
@@ -15606,6 +15610,28 @@ SplineSet
  642 -262 l 1
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: period_period.liga
+Encoding: 65599 -1 496
+Width: 600
+Flags: WO
+HStem: -12 235<-269.298 -130.702 130.702 269.298>
+VStem: -316 232<34.403 175.958> 84 232<34.403 175.958>
+LayerCount: 2
+Fore
+SplineSet
+-200 -12 m 0
+ -269 -12 -316 39 -316 105 c 0
+ -316 171 -269 223 -200 223 c 0
+ -131 223 -84 171 -84 105 c 0
+ -84 39 -131 -12 -200 -12 c 0
+200 -12 m 0
+ 131 -12 84 39 84 105 c 0
+ 84 171 131 223 200 223 c 0
+ 269 223 316 171 316 105 c 0
+ 316 39 269 -12 200 -12 c 0
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
