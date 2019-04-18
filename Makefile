@@ -24,9 +24,9 @@ clean:
 calt: calt.fea
 
 # Fonts rules
-$(FONTS_DIR)%.otf: $(SRC_DIR)%.sfd calt.fea generate.py
+$(FONTS_DIR)%.otf: $(SRC_DIR)%.sfd calt.fea gen_font.py
 	@echo "Generating $@"
-	@$(FF) -quiet -lang=py -script generate.py $< $@
+	@$(FF) -quiet -lang=py -script gen_font.py $< $@
 
 # Adds, for each font, its directory as an order-only prerequisite (avoids
 # redundant calls to mkdir)
