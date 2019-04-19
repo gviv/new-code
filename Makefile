@@ -17,14 +17,14 @@ all: $(FONTS)
 # Removes all generated files and fonts
 .PHONY: clean
 clean:
-	rm -rf $(FONTS_DIR) calt.fea
+	rm -rf $(FONTS_DIR) features.fea
 
-# Generates the calt file
-.PHONY: calt
-calt: calt.fea
+# Generates the features file
+.PHONY: features
+features: features.fea
 
 # Fonts rules
-$(FONTS_DIR)%.otf: $(SRC_DIR)%.sfd calt.fea gen_font.py
+$(FONTS_DIR)%.otf: $(SRC_DIR)%.sfd features.fea gen_font.py
 	@echo "Generating $@"
 	@$(FF) -quiet -lang=py -script gen_font.py $< $@
 
@@ -37,6 +37,6 @@ $(FONTS_DIR)%/:
 	@mkdir -p $@
 
 # .fea files rules
-calt.fea: gen_calt.ml
+features.fea: gen_features.ml
 	@echo "Generating $@"
 	@ocaml $<

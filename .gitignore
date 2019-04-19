@@ -1,6 +1,6 @@
-# This file should only be modified by gen_calt.ml and only serves as a
-# temporary file to add the calt feature to the fonts during their generation.
+# This file should only be modified by gen_features.ml and only serves as a
+# temporary file to add the features to the fonts during their generation.
 # It's not a real source file that can be edited directly.
-calt.fea
+features.fea
 
 dist/
