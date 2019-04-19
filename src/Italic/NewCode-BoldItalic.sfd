@@ -71,7 +71,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 12 10
+WinInfo: 65484 12 10
 BeginPrivate: 8
 BlueValues 31 [-12 0 510 523 660 672 750 766]
 OtherBlues 11 [-217 -205]
@@ -87,7 +87,7 @@ Grid
  -685.693359375 -541 l 1024
 EndSplineSet
 AnchorClass2: "Ancre-0" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-1" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-2" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-3" "sous-table 'mkmk' Signe sur signe dans Latin lookup 1" "Ancre-4" "sous-table 'mkmk' Signe sur signe dans Latin lookup 2"
-BeginChars: 65600 497
+BeginChars: 65599 496
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -15757,27 +15757,6 @@ SplineSet
  642 -262 l 1
 EndSplineSet
 Validated: 1
-EndChar
-
-StartChar: period_period.liga
-Encoding: 65599 -1 496
-Width: 600
-Flags: HWO
-HStem: -12 235<-253.586 -146.414 146.414 253.586>
-LayerCount: 2
-Fore
-SplineSet
--82 126 m 0
- -82 47 -145 -12 -219 -12 c 0
- -281 -12 -318 29 -318 85 c 0
- -318 164 -254 223 -181 223 c 0
- -119 223 -82 182 -82 126 c 0
-318 126 m 0
- 318 47 255 -12 181 -12 c 0
- 119 -12 82 29 82 85 c 0
- 82 164 146 223 219 223 c 0
- 281 223 318 182 318 126 c 0
-EndSplineSet
 EndChar
 EndChars
 EndSplineFont

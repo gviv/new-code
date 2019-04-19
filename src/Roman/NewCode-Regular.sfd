@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1432775446
-ModificationTime: 1555592653
+ModificationTime: 1555688262
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -83,12 +83,14 @@ StemSnapH 4 [50]
 StemSnapV 4 [62]
 EndPrivate
 Grid
+-1200 1250 m 0
+ -1200 -750 l 1024
 -600 1250 m 0
  -600 -750 l 1024
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 534774 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Ancre-0" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-1" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-2" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-3" "sous-table 'mkmk' Signe sur signe dans Latin lookup 1" "Ancre-4" "sous-table 'mkmk' Signe sur signe dans Latin lookup 2"
-BeginChars: 65600 497
+BeginChars: 65599 496
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -15147,28 +15149,6 @@ SplineSet
  609 -262 l 1
 EndSplineSet
 Validated: 1
-EndChar
-
-StartChar: period_period.liga
-Encoding: 65599 -1 496
-Width: 600
-Flags: WO
-HStem: -12 156<-252 -147.5 148 252.5>
-VStem: -274 149<10.6695 121.717> 126 149<10.6695 121.717>
-LayerCount: 2
-Fore
-SplineSet
--200 -12 m 0
- -240 -12 -274 19 -274 66 c 0
- -274 114 -240 144 -200 144 c 0
- -160 144 -125 114 -125 66 c 0
- -125 19 -160 -12 -200 -12 c 0
-200 -12 m 0
- 160 -12 126 19 126 66 c 0
- 126 114 160 144 200 144 c 0
- 240 144 275 114 275 66 c 0
- 275 19 240 -12 200 -12 c 0
-EndSplineSet
 EndChar
 EndChars
 EndSplineFont

@@ -87,7 +87,7 @@ Grid
  -600 -750 l 1024
 EndSplineSet
 AnchorClass2: "Ancre-0" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-1" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-2" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-3" "sous-table 'mkmk' Signe sur signe dans Latin lookup 1" "Ancre-4" "sous-table 'mkmk' Signe sur signe dans Latin lookup 2"
-BeginChars: 65600 497
+BeginChars: 65599 496
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -15610,28 +15610,6 @@ SplineSet
  642 -262 l 1
 EndSplineSet
 Validated: 1
-EndChar
-
-StartChar: period_period.liga
-Encoding: 65599 -1 496
-Width: 600
-Flags: WO
-HStem: -12 235<-269.298 -130.702 130.702 269.298>
-VStem: -316 232<34.403 175.958> 84 232<34.403 175.958>
-LayerCount: 2
-Fore
-SplineSet
--200 -12 m 0
- -269 -12 -316 39 -316 105 c 0
- -316 171 -269 223 -200 223 c 0
- -131 223 -84 171 -84 105 c 0
- -84 39 -131 -12 -200 -12 c 0
-200 -12 m 0
- 131 -12 84 39 84 105 c 0
- 84 171 131 223 200 223 c 0
- 269 223 316 171 316 105 c 0
- 316 39 269 -12 200 -12 c 0
-EndSplineSet
 EndChar
 EndChars
 EndSplineFont
