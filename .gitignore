@@ -2,3 +2,5 @@
 # temporary file to add the calt feature to the fonts during their generation.
 # It's not a real source file that can be edited directly.
 calt.fea
+
+dist/
