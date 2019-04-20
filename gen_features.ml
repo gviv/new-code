@@ -22,7 +22,10 @@ type kern_liga = {
 let calt_ligas : calt_liga list = []
 
 (** The kern ligatures to generate. *)
-let kern_ligas : kern_liga list = []
+let kern_ligas : kern_liga list = [
+  {glyphs = ["period"; "period"]; factor = 110};
+  {glyphs = ["period"; "period"; "period"]; factor = 145};
+]
 
 (** General list iterator. *)
 let rec it_list f l a =
