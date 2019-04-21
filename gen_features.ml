@@ -25,6 +25,8 @@ let calt_ligas : calt_liga list = []
 let kern_ligas : kern_liga list = [
   {glyphs = ["period"; "period"]; factor = 110};
   {glyphs = ["period"; "period"; "period"]; factor = 145};
+  {glyphs = ["semicolon"; "semicolon"]; factor = 90};
+  {glyphs = ["colon"; "colon"]; factor = 90};
 ]
 
 (** General list iterator. *)
