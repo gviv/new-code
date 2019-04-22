@@ -27,6 +27,7 @@ let kern_ligas : kern_liga list = [
   {glyphs = ["period"; "period"; "period"]; factor = 145};
   {glyphs = ["semicolon"; "semicolon"]; factor = 90};
   {glyphs = ["colon"; "colon"]; factor = 90};
+  {glyphs = ["slash"; "slash"]; factor = 50};
 ]
 
 (** General list iterator. *)
