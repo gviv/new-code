@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1432775446
-ModificationTime: 1555688262
+ModificationTime: 1556047454
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -71,7 +71,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 65484 12 10
+WinInfo: 36 12 10
 BeginPrivate: 8
 BlueValues 31 [-13 0 510 522 660 672 718 729]
 OtherBlues 11 [-217 -205]
@@ -11046,7 +11046,7 @@ EndChar
 StartChar: quotedbl
 Encoding: 34 34 337
 Width: 600
-Flags: W
+Flags: HW
 HStem: 396 292<164 213 387 436>
 VStem: 140 97<544.5 688> 362 97<550.957 688>
 LayerCount: 2
@@ -11054,7 +11054,7 @@ Fore
 SplineSet
 164 396 m 1
  140 594 l 1
- 139 688 l 1
+ 140 688 l 1
  238 688 l 1
  237 594 l 1
  213 396 l 1
@@ -11067,7 +11067,6 @@ SplineSet
  436 396 l 1
  387 396 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: quotesingle
@@ -12126,7 +12125,7 @@ StartChar: dollar
 Encoding: 36 36 386
 Width: 600
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 7 62<200.517 281 334 403.687> 521 21G<448 483.727> 584 60<217.785 281 334 403.439>
 VStem: 105 62<436.247 539.662> 281 53<-110 9.37625 69 290 379 584 642.182 748> 464 62<120.024 229.576>
 LayerCount: 2
@@ -12138,14 +12137,14 @@ SplineSet
  334 748 l 1
  334 704 334 693 334 645 c 1
  411 637 462 607 505 565 c 1
- 466 521 l 1
- 430 549 390 578 334 585 c 1
+ 464 521 l 1
+ 428 549 390 577 334 584 c 1
  334 358 l 1
  398 333 463 313 500 262 c 0
  516 240 526 214 526 181 c 0
  526 100 473 52 413 27 c 0
- 389 17 362 11 334 8 c 1
- 334 -46 334 -61 334 -110 c 1
+ 389 17 362 10 334 7 c 1
+ 334 -47 334 -61 334 -110 c 1
  281 -110 l 1
  281 -61 281 -47 281 7 c 1
  202 15 122 51 74 91 c 1
@@ -12164,7 +12163,6 @@ SplineSet
  414 255 365 277 334 290 c 1
  334 68 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: dong
@@ -14858,18 +14856,17 @@ StartChar: grave
 Encoding: 96 96 483
 Width: 600
 Flags: W
-HStem: 573 144
-VStem: 193 169
+HStem: 544 173
+VStem: 196 208
 LayerCount: 2
 Fore
 SplineSet
-307 573 m 1
- 193 717 l 1
- 272 717 l 1
- 362 573 l 1
- 307 573 l 1
+330 544 m 1
+ 196 717 l 1
+ 294 717 l 1
+ 404 544 l 1
+ 330 544 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: hungarumlaut

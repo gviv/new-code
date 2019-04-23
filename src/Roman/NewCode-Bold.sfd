@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1432775451
-ModificationTime: 1555594179
+ModificationTime: 1556047136
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -71,7 +71,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 65460 12 12
+WinInfo: 0 12 12
 BeginPrivate: 8
 BlueValues 31 [-12 0 510 523 660 672 750 766]
 OtherBlues 11 [-217 -205]
@@ -86,7 +86,7 @@ Grid
 -600 1250 m 0
  -600 -750 l 1024
 EndSplineSet
-AnchorClass2: "Ancre-0" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-1" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-2" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-3" "sous-table 'mkmk' Signe sur signe dans Latin lookup 1" "Ancre-4" "sous-table 'mkmk' Signe sur signe dans Latin lookup 2"
+AnchorClass2: "Ancre-0" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-1" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-2" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-3" "sous-table 'mkmk' Signe sur signe dans Latin lookup 1"
 BeginChars: 65599 496
 
 StartChar: .notdef
@@ -595,9 +595,9 @@ SplineSet
  84 660 l 1
  288 660 l 2
  423 660 527 623 527 496 c 0xf8
- 527 437 492 374 415 353 c 1
- 415 349 l 1
- 508 332 557 283 557 194 c 0
+ 527 437 490 374 413 353 c 1
+ 413 349 l 1
+ 506 332 557 283 557 194 c 0
  557 60 448 0 307 0 c 2
  84 0 l 1xf4
 231 393 m 1
@@ -5788,7 +5788,7 @@ SplineSet
 213 0 m 1
  213 395 l 1
  82 395 l 1
- 82 509 l 1
+ 82 510 l 1
  213 510 l 1
  213 526 l 2
  213 643 280 735 435 735 c 0
@@ -7641,7 +7641,7 @@ SplineSet
  248 398 l 1
  251 398 l 1
  300 482 373 523 452 523 c 0xc8
- 496 523 519 515 548 502 c 1x98
+ 496 523 519 516 548 503 c 1x98
  518 379 l 1
  487 388 467 394 430 394 c 0
  369 394 305 360 263 268 c 1
@@ -10185,7 +10185,7 @@ SplineSet
  448 127 l 1
  448 149 l 1
  453 248 l 1
- 450 248 l 1
+ 448 248 l 1
  416 186 l 1
  383 127 l 1xbc
 EndSplineSet
@@ -10243,7 +10243,7 @@ SplineSet
  449 127 l 1
  449 149 l 1
  454 248 l 1
- 451 248 l 1
+ 449 248 l 1
  417 186 l 1
  384 127 l 1xad80
 EndSplineSet
@@ -11176,8 +11176,8 @@ Fore
 SplineSet
 219 -217 m 1
  182 -131 l 1
- 269 -101 312 -52 312 11 c 1
- 308 10 305 10 301 10 c 0
+ 269 -101 312 -53 312 10 c 1
+ 308 9 305 10 301 10 c 0
  245 10 193 46 193 112 c 0
  193 174 243 215 305 215 c 0
  387 215 429 151 429 43 c 0
@@ -11223,11 +11223,11 @@ VStem: 200 200<60 119.5>
 LayerCount: 2
 Fore
 SplineSet
-252 255 m 5xb0
- 227 670 l 5
+252 255 m 1xb0
+ 227 670 l 1
  373 670 l 1
  348 255 l 1
- 252 255 l 5xb0
+ 252 255 l 1xb0
 300 -12 m 0
  243 -12 200 30 200 90 c 0
  200 149 243 190 300 190 c 0x70
@@ -11316,11 +11316,11 @@ VStem: 184 232<72 138>
 LayerCount: 2
 Fore
 SplineSet
-300 -12 m 4xa0
- 231 -12 184 39 184 105 c 4
- 184 171 231 223 300 223 c 4x60
- 369 223 416 171 416 105 c 4
- 416 39 369 -12 300 -12 c 4xa0
+300 -12 m 0xa0
+ 231 -12 184 39 184 105 c 0
+ 184 171 231 223 300 223 c 0x60
+ 369 223 416 171 416 105 c 0
+ 416 39 369 -12 300 -12 c 0xa0
 EndSplineSet
 Validated: 1
 EndChar
@@ -11386,26 +11386,25 @@ EndChar
 StartChar: quotedbl
 Encoding: 34 34 337
 Width: 600
-Flags: HMW
-HStem: 338 347<122 122 122 212 388 478 388 388>
-VStem: 84 165 350 165
+Flags: W
+VStem: 87 160<540.714 685> 122 90<338 381> 353 160<540.714 685> 388 90<338 381>
 LayerCount: 2
 Fore
 SplineSet
-122 338 m 1
+122 338 m 1x40
  87 553 l 1
  82 685 l 1
  252 685 l 1
- 247 553 l 1
+ 247 553 l 1x80
  212 338 l 1
- 122 338 l 1
-388 338 m 1
+ 122 338 l 1x40
+388 338 m 1x10
  353 553 l 1
  348 685 l 1
  518 685 l 1
- 513 553 l 1
+ 513 553 l 1x20
  478 338 l 1
- 388 338 l 1
+ 388 338 l 1x10
 EndSplineSet
 Validated: 1
 EndChar
@@ -11420,7 +11419,7 @@ LayerCount: 2
 Fore
 SplineSet
 255 338 m 1
- 220 553 l 1
+ 218 553 l 1
  215 685 l 1
  385 685 l 1
  380 553 l 1
@@ -11445,9 +11444,9 @@ SplineSet
  369 546 416 494 416 429 c 0
  416 363 369 311 300 311 c 0xf0
 219 -217 m 1
- 182 -131 l 1
- 269 -101 312 -52 312 11 c 1
- 308 10 305 10 301 10 c 0
+ 184 -131 l 1
+ 271 -101 312 -53 312 10 c 1
+ 308 9 305 10 301 10 c 0
  245 10 193 46 193 112 c 0
  193 174 243 215 305 215 c 0
  387 215 429 151 429 43 c 0xe8
@@ -11663,39 +11662,39 @@ EndChar
 StartChar: braceleft
 Encoding: 123 123 350
 Width: 600
-Flags: W
+Flags: HW
 HStem: -152 78<374.495 504> 235 86<96 213.478> 630 78<374.495 504>
 VStem: 241 120<-59.4129 158.104 397.895 615.934> 251 115<-9.05775 203.181 352.356 563.059>
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
-366 159 m 4xe8
- 366 99 361 54 361 -4 c 4
- 361 -47 375 -65 412 -71 c 4
- 425 -73 442 -74 463 -74 c 6
- 504 -74 l 5
- 504 -152 l 5
- 427 -152 l 6
- 363 -152 316 -142 286 -122 c 4
- 256 -102 241 -66 241 -12 c 4xf0
- 241 51 251 99 251 161 c 4
- 251 222 160 233 96 235 c 5
- 96 321 l 5
- 142 322 197 329 223 346 c 4
- 240 357 251 371 251 395 c 4xe8
- 251 457 241 503 241 566 c 4xf0
- 241 620 256 658 286 678 c 4
- 316 698 363 708 427 708 c 6
- 504 708 l 5
- 504 630 l 5
- 463 630 l 6
- 416 630 377 628 366 594 c 4xe8
- 363 585 361 574 361 560 c 4xf0
- 361 503 366 455 366 397 c 4
- 366 318 320 292 250 280 c 5
- 250 276 l 5
- 320 264 366 238 366 159 c 4xe8
+366 159 m 0xe8
+ 366 99 361 54 361 -4 c 0
+ 361 -47 375 -65 412 -71 c 0
+ 425 -73 442 -74 463 -74 c 2
+ 504 -74 l 1
+ 504 -152 l 1
+ 427 -152 l 2
+ 363 -152 316 -142 286 -122 c 0
+ 256 -102 241 -66 241 -12 c 0xf0
+ 241 51 251 99 251 161 c 0
+ 251 222 160 233 96 235 c 1
+ 96 321 l 1
+ 142 322 197 329 223 346 c 0
+ 240 357 251 371 251 395 c 0xe8
+ 251 457 241 503 241 566 c 0xf0
+ 241 620 256 658 286 678 c 0
+ 316 698 363 708 427 708 c 2
+ 504 708 l 1
+ 504 630 l 1
+ 463 630 l 2
+ 416 630 377 628 366 594 c 0xe8
+ 363 585 361 574 361 560 c 0xf0
+ 361 503 366 455 366 397 c 0
+ 366 318 321 292 251 280 c 1
+ 251 276 l 1
+ 321 264 366 238 366 159 c 0xe8
 EndSplineSet
 Validated: 1
 EndChar
@@ -14295,7 +14294,7 @@ StartChar: ampersand
 Encoding: 38 38 447
 Width: 600
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: -12 112<159.123 281.668> 0 21G<423.128 594> 567 105<240.738 335.245>
 VStem: 6 120<132.69 240.723> 98 133<467.218 557.143> 418 110<318.378 425>
 LayerCount: 2
@@ -14312,8 +14311,8 @@ SplineSet
  170 377 149 407 140 421 c 0
  110 464 98 502 98 534 c 0
  98 630 181 672 278 672 c 0
- 388 672 463 612 463 514 c 5
- 357 475 l 5
+ 388 672 463 612 463 514 c 1
+ 357 475 l 1
  357 557 307 567 282 567 c 0
  249 567 231 543 231 518 c 0
  231 504 236 489 254 465 c 0
@@ -14837,8 +14836,6 @@ GlyphClass: 4
 Flags: HMW
 HStem: 574 167<-382 -143 -293 -275>
 VStem: -382 239<574 741>
-AnchorPoint: "Ancre-4" -260 741 basemark 0
-AnchorPoint: "Ancre-4" -262 510 mark 0
 AnchorPoint: "Ancre-2" -262 510 mark 0
 LayerCount: 2
 Fore
@@ -14859,8 +14856,6 @@ GlyphClass: 4
 Flags: HMW
 HStem: 574 81<-320 -280 -320 -250.5>
 VStem: -447 82<730 730> -235 82<730 730>
-AnchorPoint: "Ancre-4" -298 730 basemark 0
-AnchorPoint: "Ancre-4" -300 510 mark 0
 AnchorPoint: "Ancre-2" -300 510 mark 0
 LayerCount: 2
 Fore
@@ -14883,8 +14878,6 @@ GlyphClass: 4
 Flags: HMW
 HStem: 574 167<-362 -362 -362 -355 -245 -238>
 VStem: -462 324<741 741>
-AnchorPoint: "Ancre-4" -298 741 basemark 0
-AnchorPoint: "Ancre-4" -300 510 mark 0
 AnchorPoint: "Ancre-2" -300 510 mark 0
 LayerCount: 2
 Fore
@@ -14935,8 +14928,6 @@ GlyphClass: 4
 Flags: HMW
 HStem: 574 167<-462 -238 -362 -355 -245 -245 -245 -238 -362 -138>
 VStem: -462 324<574 574>
-AnchorPoint: "Ancre-4" -298 741 basemark 0
-AnchorPoint: "Ancre-4" -300 510 mark 0
 AnchorPoint: "Ancre-2" -300 510 mark 0
 LayerCount: 2
 Fore
@@ -14961,8 +14952,6 @@ GlyphClass: 4
 Flags: HMW
 HStem: 571 157<-432 -386 -214 -168>
 VStem: -488 157<627.5 672> -269 157<627.5 672>
-AnchorPoint: "Ancre-4" -298 728 basemark 0
-AnchorPoint: "Ancre-4" -300 510 mark 0
 AnchorPoint: "Ancre-2" -300 510 mark 0
 LayerCount: 2
 Fore
@@ -14988,8 +14977,6 @@ GlyphClass: 4
 Flags: HMW
 HStem: 586 200<-329 -271>
 VStem: -400 200<654 714>
-AnchorPoint: "Ancre-4" -298 750 basemark 0
-AnchorPoint: "Ancre-4" -300 510 mark 0
 AnchorPoint: "Ancre-2" -300 510 mark 0
 LayerCount: 2
 Fore
@@ -15010,8 +14997,6 @@ GlyphClass: 4
 Flags: HMW
 HStem: 574 167<-325 -325 -325 -307 -457 -218>
 VStem: -457 239<574 741>
-AnchorPoint: "Ancre-4" -335 741 basemark 0
-AnchorPoint: "Ancre-4" -337 510 mark 0
 AnchorPoint: "Ancre-2" -337 510 mark 0
 LayerCount: 2
 Fore
@@ -15032,7 +15017,6 @@ GlyphClass: 4
 Flags: HMW
 HStem: 573 151<-425 -240 -357 -335 -255 -240 -186 -164 -255 -255>
 VStem: -425 356<573 724>
-AnchorPoint: "Ancre-4" -247 510 mark 0
 AnchorPoint: "Ancre-2" -247 510 mark 0
 LayerCount: 2
 Fore
@@ -15058,8 +15042,6 @@ GlyphClass: 4
 Flags: HMW
 HStem: 592 93<-438 -162 -438 -162>
 VStem: -438 276<592 685 592 685>
-AnchorPoint: "Ancre-4" -298 685 basemark 0
-AnchorPoint: "Ancre-4" -300 510 mark 0
 AnchorPoint: "Ancre-2" -300 510 mark 0
 LayerCount: 2
 Fore
@@ -15104,8 +15086,6 @@ GlyphClass: 4
 Flags: HMW
 HStem: 548 55<-311.5 -288.5 -311.5 -266.5> 697 55<-311.5 -288.5>
 VStem: -413 72<636 664 636 681> -259 72<636 664>
-AnchorPoint: "Ancre-4" -298 752 basemark 0
-AnchorPoint: "Ancre-4" -300 510 mark 0
 AnchorPoint: "Ancre-2" -300 510 mark 0
 LayerCount: 2
 Fore
@@ -15131,8 +15111,6 @@ GlyphClass: 4
 Flags: HMW
 HStem: 575 91<-261 -236.5 -261 -215.5> 628 90<-363.5 -339>
 VStem: -471 342<575 718>
-AnchorPoint: "Ancre-4" -298 718 basemark 0
-AnchorPoint: "Ancre-4" -300 510 mark 0
 AnchorPoint: "Ancre-2" -300 510 mark 0
 LayerCount: 2
 Fore
@@ -15156,7 +15134,6 @@ Width: 600
 Flags: HMW
 HStem: 574 167<218 457 307 325>
 VStem: 218 239<574 741>
-AnchorPoint: "Ancre-4" 340 741 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -15175,7 +15152,6 @@ Width: 600
 Flags: HMW
 HStem: 574 81<280 320 280 349.5>
 VStem: 153 82<730 730> 365 82<730 730>
-AnchorPoint: "Ancre-4" 302 730 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -15196,7 +15172,6 @@ Width: 600
 Flags: HMW
 HStem: 574 167<238 238 238 245 355 362>
 VStem: 138 324<741 741>
-AnchorPoint: "Ancre-4" 302 741 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -15242,7 +15217,6 @@ Width: 600
 Flags: HMW
 HStem: 574 167<138 362 238 245 355 355 355 362 238 462>
 VStem: 138 324<574 574>
-AnchorPoint: "Ancre-4" 302 741 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -15265,7 +15239,6 @@ Width: 600
 Flags: HMW
 HStem: 571 157<168 214 386 432>
 VStem: 112 157<627.5 672> 331 157<627.5 672>
-AnchorPoint: "Ancre-4" 302 728 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -15289,7 +15262,6 @@ Width: 600
 Flags: HMW
 HStem: 585 201<270 330>
 VStem: 197 206<654 714>
-AnchorPoint: "Ancre-4" 302 750 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -15305,20 +15277,18 @@ EndChar
 StartChar: grave
 Encoding: 96 96 483
 Width: 600
-Flags: HMW
-HStem: 574 167<275 275 275 293 143 382>
-VStem: 143 239<574 741>
-AnchorPoint: "Ancre-4" 265 741 basemark 0
+Flags: W
+HStem: 548 193<321 322>
+VStem: 165 270
 LayerCount: 2
 Fore
 SplineSet
-275 574 m 1
- 143 741 l 1
- 293 741 l 1
- 382 574 l 1
- 275 574 l 1
+321 548 m 1
+ 165 741 l 1
+ 322 741 l 1
+ 435 548 l 1
+ 321 548 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: hungarumlaut
@@ -15350,7 +15320,6 @@ Width: 600
 Flags: HMW
 HStem: 592 93<162 438 162 438>
 VStem: 162 276<592 685 592 685>
-AnchorPoint: "Ancre-4" 302 685 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -15391,7 +15360,6 @@ Width: 600
 Flags: HMW
 HStem: 548 55<288.5 311.5 288.5 333.5> 697 55<288.5 311.5>
 VStem: 187 72<636 664 636 681> 341 72<636 664>
-AnchorPoint: "Ancre-4" 302 752 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -15415,7 +15383,6 @@ Width: 600
 Flags: HMW
 HStem: 575 91<339 363.5 339 384.5> 628 90<236.5 261>
 VStem: 129 342<575 718>
-AnchorPoint: "Ancre-4" 302 718 basemark 0
 LayerCount: 2
 Fore
 SplineSet

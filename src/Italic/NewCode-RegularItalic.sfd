@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1432776643
-ModificationTime: 1555594789
+ModificationTime: 1556047055
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -71,7 +71,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 65472 12 11
+WinInfo: 0 12 11
 BeginPrivate: 8
 BlueValues 31 [-13 0 510 522 660 672 718 729]
 OtherBlues 11 [-217 -205]
@@ -14965,19 +14965,18 @@ EndChar
 StartChar: grave
 Encoding: 96 96 483
 Width: 600
-Flags: W
-HStem: 573 145
-VStem: 306 147
+Flags: WO
+HStem: 544 173
+VStem: 309 181
 LayerCount: 2
 Fore
 SplineSet
-398 573 m 1
- 306 718 l 1
- 385 718 l 1
- 453 573 l 1
- 398 573 l 1
+415 544 m 1
+ 309 717 l 1
+ 408 717 l 1
+ 490 544 l 1
+ 415 544 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: hungarumlaut
