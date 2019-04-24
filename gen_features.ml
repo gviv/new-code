@@ -28,6 +28,8 @@ let kern_ligas : kern_liga list = [
   {glyphs = ["semicolon"; "semicolon"]; factor = 90};
   {glyphs = ["colon"; "colon"]; factor = 90};
   {glyphs = ["slash"; "slash"]; factor = 50};
+  {glyphs = ["question"; "question"]; factor = 90};
+  {glyphs = ["exclam"; "exclam"]; factor = 90};
 ]
 
 (** General list iterator. *)
