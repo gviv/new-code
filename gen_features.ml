@@ -8,7 +8,9 @@ let output_file = "features.fea"
 
 (** Global glyph classes. The first component is the name of the class and the
     second is the glyphs to add to the class. *)
-let classes : (string * string) list = []
+let classes : (string * string) list = [
+  ("digits", "zero one two three four five six seven eight nine");
+]
 
 (** A calt ligature is a ligature whose glyphs will merge into an ad hoc
     glyph. For example, the ligature ["hyphen"; "greater"] tells the font to
@@ -41,6 +43,9 @@ let kern_ligas : kern_liga list = [
 
 (** Returns the `ignore' rules corresponding to the given glyphs. *)
 let get_ignores : string list -> string list = function
+  | ["less"; "hyphen"] -> [
+      "less' hyphen' @digits";
+    ]
   | _ -> []
 
 (** General list iterator. *)
