@@ -99,16 +99,14 @@ let gen_subs calt_liga lookup_name =
 let gen_lookup_generic name content =
   sprintf "%2slookup %s {\n%s%2s} %s;" "" name content "" name
 
-(** Generates the calt lookups. *)
-let gen_calt_lookups calt_ligas =
-  let gen_lookup liga =
-    let lookup_name = S.concat "_" liga in
-    let default_ignores = gen_default_ignores liga "sub"
-    and custom_ignores = gen_ignores "sub" (get_ignores liga)
-    and default_subs = S.concat "" (gen_subs liga lookup_name) in
-    let content = default_ignores ^ custom_ignores ^ default_subs in
-    gen_lookup_generic lookup_name content in
-  L.map gen_lookup calt_ligas
+(** Generates the calt lookup corresponding to the given calt ligature. *)
+let gen_calt_lookup calt_liga =
+  let lookup_name = S.concat "_" calt_liga in
+  let default_ignores = gen_default_ignores calt_liga "sub"
+  and custom_ignores = gen_ignores "sub" (get_ignores calt_liga)
+  and default_subs = S.concat "" (gen_subs calt_liga lookup_name) in
+  let content = default_ignores ^ custom_ignores ^ default_subs in
+  gen_lookup_generic lookup_name content
 
 (** Generates the `pos' rule corresponding to the given kern ligature. *)
 let gen_pos kern_liga =
@@ -119,15 +117,13 @@ let gen_pos kern_liga =
                       g1 kern_liga.factor g2 g3 kern_liga.factor
   | _ -> raise (Failure "gen_pos: invalid glyphs")
 
-(** Generates the kern lookups. *)
-let gen_kern_lookups kern_ligas =
-  let gen_lookup kern_liga =
-    let lookup_name = S.concat "_" kern_liga.glyphs
-    and default_ignores = gen_default_ignores kern_liga.glyphs "pos"
-    and custom_ignores = gen_ignores "pos" (get_ignores kern_liga.glyphs) in
-    let content = default_ignores ^ custom_ignores ^ gen_pos kern_liga in
-    gen_lookup_generic lookup_name content in
-  L.map gen_lookup kern_ligas
+(** Generates the kern lookup corresponding to the given kern ligature. *)
+let gen_kern_lookup kern_liga =
+  let lookup_name = S.concat "_" kern_liga.glyphs
+  and default_ignores = gen_default_ignores kern_liga.glyphs "pos"
+  and custom_ignores = gen_ignores "pos" (get_ignores kern_liga.glyphs) in
+  let content = default_ignores ^ custom_ignores ^ gen_pos kern_liga in
+  gen_lookup_generic lookup_name content
 
 let main () =
   let oc = open_out output_file
@@ -135,8 +131,8 @@ let main () =
   and calt_ligas = L.sort (fun l1 l2 -> L.length l2 - L.length l1) calt_ligas
   and kern_ligas = L.sort
       (fun kl1 kl2 -> L.length kl2.glyphs - L.length kl1.glyphs) kern_ligas in
-  let calt_lookups = S.concat "\n\n" (gen_calt_lookups calt_ligas)
-  and kern_lookups = S.concat "\n\n" (gen_kern_lookups kern_ligas) in
+  let calt_lookups = S.concat "\n\n" (L.map gen_calt_lookup calt_ligas)
+  and kern_lookups = S.concat "\n\n" (L.map gen_kern_lookup kern_ligas) in
   fprintf oc "%s\n" (gen_classes classes);
   fprintf oc "feature calt {\n%s\n} calt;\n\n" calt_lookups;
   fprintf oc "feature kern {\n%s\n} kern;\n" kern_lookups;
