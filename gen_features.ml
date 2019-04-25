@@ -19,7 +19,10 @@ type kern_liga = {
 }
 
 (** The calt ligatures to generate. *)
-let calt_ligas : calt_liga list = []
+let calt_ligas : calt_liga list = [
+  ["hyphen"; "greater"];
+  ["less"; "hyphen"];
+]
 
 (** The kern ligatures to generate. *)
 let kern_ligas : kern_liga list = [

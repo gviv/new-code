@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1432775451
-ModificationTime: 1556094797
+ModificationTime: 1556197838
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -71,7 +71,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 12 12
+WinInfo: 65460 12 12
 BeginPrivate: 8
 BlueValues 31 [-12 0 510 523 660 672 750 766]
 OtherBlues 11 [-217 -205]
@@ -85,9 +85,14 @@ EndPrivate
 Grid
 -600 1250 m 0
  -600 -750 l 1024
+  Spiro
+    -600 1250 {
+    -600 -750 o
+    0 0 z
+  EndSpiro
 EndSplineSet
 AnchorClass2: "Ancre-0" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-1" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-2" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-3" "sous-table 'mkmk' Signe sur signe dans Latin lookup 1"
-BeginChars: 65599 496
+BeginChars: 65601 498
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -11989,12 +11994,11 @@ LayerCount: 2
 Fore
 SplineSet
 70 278 m 1
- 70 382 l 1
- 530 382 l 1
+ 70 382 l 5
+ 530 382 l 5
  530 278 l 1
  70 278 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: guillemotleft
@@ -12489,7 +12493,7 @@ StartChar: dollar
 Encoding: 36 36 386
 Width: 600
 GlyphClass: 2
-Flags: WO
+Flags: W
 VStem: 71 132<414.155 496.005> 253 103<-110 -5.62232 121 231 399 506 625.613 745> 408 138<129.6 211.71>
 LayerCount: 2
 Fore
@@ -13133,15 +13137,15 @@ VStem: 98 386<-12 370 131 370 268 650 268 650> 363 121<317 321 321 321>
 LayerCount: 2
 Fore
 SplineSet
-98 -12 m 1xc0
- 98 131 l 1
- 363 317 l 1
- 363 321 l 1
- 98 507 l 1
- 98 650 l 1
- 484 370 l 1
- 484 268 l 1xa0
- 98 -12 l 1xc0
+98 -12 m 5xc0
+ 98 131 l 5
+ 363 317 l 5
+ 363 321 l 5
+ 98 507 l 5
+ 98 650 l 5
+ 484 370 l 5
+ 484 268 l 5xa0
+ 98 -12 l 5xc0
 EndSplineSet
 Validated: 1
 EndChar
@@ -15576,6 +15580,61 @@ SplineSet
  642 -262 l 1
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: hyphen_greater.liga
+Encoding: 65599 -1 496
+Width: 600
+InSpiro: 1
+Flags: WO
+HStem: 0 21G<134 174> 278 104<-530 262> 640 20G<134 174>
+LayerCount: 2
+Fore
+SplineSet
+154 0 m 1
+ 69 85 l 1
+ 262 278 l 1
+ -530 278 l 1
+ -530 382 l 1
+ 262 382 l 1
+ 69 575 l 1
+ 154 660 l 1
+ 484 330 l 1
+ 154 0 l 1
+  Spiro
+    154 0 v
+    69 85 v
+    262 278 v
+    -530 278 v
+    -530 382 v
+    262 382 v
+    69 575 v
+    154 660 v
+    484 330 v
+    0 0 z
+  EndSpiro
+EndSplineSet
+EndChar
+
+StartChar: less_hyphen.liga
+Encoding: 65600 -1 497
+Width: 600
+Flags: W
+HStem: 0 21G<-174 -134> 278 104<-262 530> 640 20G<-174 -134>
+LayerCount: 2
+Fore
+SplineSet
+-154 660 m 1
+ -69 575 l 1
+ -262 382 l 1
+ 530 382 l 1
+ 530 278 l 1
+ -262 278 l 5
+ -69 85 l 1
+ -154 0 l 1
+ -484 330 l 1
+ -154 660 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

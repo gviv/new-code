@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1432775446
-ModificationTime: 1556094452
+ModificationTime: 1556189962
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -71,7 +71,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 36 12 10
+WinInfo: 65484 12 10
 BeginPrivate: 8
 BlueValues 31 [-13 0 510 522 660 672 718 729]
 OtherBlues 11 [-217 -205]
@@ -90,7 +90,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 534774 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Ancre-0" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-1" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-2" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-3" "sous-table 'mkmk' Signe sur signe dans Latin lookup 1" "Ancre-4" "sous-table 'mkmk' Signe sur signe dans Latin lookup 2"
-BeginChars: 65599 496
+BeginChars: 65601 498
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -11632,11 +11632,11 @@ HStem: 303 54<88 512>
 LayerCount: 2
 Fore
 SplineSet
-88 303 m 1
- 88 357 l 1
- 512 357 l 1
- 512 303 l 1
- 88 303 l 1
+88 303 m 5
+ 88 357 l 5
+ 512 357 l 5
+ 512 303 l 5
+ 88 303 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -12125,7 +12125,7 @@ StartChar: dollar
 Encoding: 36 36 386
 Width: 600
 GlyphClass: 2
-Flags: WO
+Flags: W
 HStem: 0 62<200.517 281 334 403.687> 514 21G<446 482.636> 577 60<217.785 281 334 402.035>
 VStem: 105 62<429.247 532.662> 281 53<-111 2.37625 62 283 372 577 635.182 748> 464 62<113.024 222.576>
 LayerCount: 2
@@ -12764,22 +12764,21 @@ StartChar: greater
 Encoding: 62 62 404
 Width: 600
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -12 21G<108 134.197>
 LayerCount: 2
 Fore
 SplineSet
-108 -12 m 1
- 108 67 l 1
- 416 297 l 1
- 416 301 l 1
- 108 531 l 1
- 108 610 l 1
- 480 326 l 1
- 480 272 l 1
- 108 -12 l 1
+108 -12 m 5
+ 108 67 l 5
+ 416 297 l 5
+ 416 301 l 5
+ 108 531 l 5
+ 108 610 l 5
+ 480 326 l 5
+ 480 272 l 5
+ 108 -12 l 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: greaterequal
@@ -15146,6 +15145,48 @@ SplineSet
  609 -262 l 1
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: hyphen_greater.liga
+Encoding: 65599 -1 496
+Width: 600
+Flags: W
+HStem: 300 60<-512 362>
+LayerCount: 2
+Fore
+SplineSet
+169 19 m 5
+ 125 63 l 5
+ 362 300 l 5
+ -512 300 l 5
+ -512 360 l 5
+ 362 360 l 5
+ 125 597 l 5
+ 169 641 l 5
+ 480 330 l 5
+ 169 19 l 5
+EndSplineSet
+EndChar
+
+StartChar: less_hyphen.liga
+Encoding: 65600 -1 497
+Width: 600
+Flags: WO
+HStem: 300 60<-362 512>
+LayerCount: 2
+Fore
+SplineSet
+-169 641 m 5
+ -125 597 l 5
+ -362 360 l 5
+ 512 360 l 5
+ 512 300 l 5
+ -362 300 l 5
+ -125 63 l 5
+ -169 19 l 5
+ -480 330 l 5
+ -169 641 l 5
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

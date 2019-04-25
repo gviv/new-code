@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1432776649
-ModificationTime: 1556095029
+ModificationTime: 1556198213
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -71,7 +71,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 12 10
+WinInfo: 65532 12 6
 BeginPrivate: 8
 BlueValues 31 [-12 0 510 523 660 672 750 766]
 OtherBlues 11 [-217 -205]
@@ -87,7 +87,7 @@ Grid
  -685.693359375 -541 l 1024
 EndSplineSet
 AnchorClass2: "Ancre-0" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-1" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-2" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-3" "sous-table 'mkmk' Signe sur signe dans Latin lookup 1"
-BeginChars: 65599 496
+BeginChars: 65601 498
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -12622,7 +12622,7 @@ StartChar: dollar
 Encoding: 36 36 386
 Width: 600
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 VStem: 146 134<410.124 488.46> 442 142<134.436 215.503>
 LayerCount: 2
 Fore
@@ -15723,6 +15723,48 @@ SplineSet
  642 -262 l 1
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: hyphen_greater.liga
+Encoding: 65599 -1 496
+Width: 600
+Flags: WO
+HStem: 0 21G<137.059 177.152> 278 104<-470 306> 640 20G<234.941 274.848>
+LayerCount: 2
+Fore
+SplineSet
+154 0 m 1
+ 82 85 l 1
+ 306 278 l 1
+ -486 278 l 1
+ -470 382 l 1
+ 322 382 l 1
+ 160 575 l 1
+ 258 660 l 1
+ 536 330 l 1
+ 154 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: less_hyphen.liga
+Encoding: 65600 -1 497
+Width: 600
+Flags: W
+HStem: 0 21G<-170.848 -130.941> 278 104<-202 574> 640 20G<-73.1515 -33.0588>
+LayerCount: 2
+Fore
+SplineSet
+-50 660 m 1
+ 22 575 l 1
+ -202 382 l 1
+ 590 382 l 1
+ 574 278 l 1
+ -218 278 l 1
+ -56 85 l 1
+ -154 0 l 1
+ -432 330 l 1
+ -50 660 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
