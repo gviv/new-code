@@ -6,6 +6,10 @@ module S = String
 (** File where the features will be written. *)
 let output_file = "features.fea"
 
+(** Global glyph classes. The first component is the name of the class and the
+    second is the glyphs to add to the class. *)
+let classes : (string * string) list = []
+
 (** A calt ligature is a ligature whose glyphs will merge into an ad hoc
     glyph. For example, the ligature ["hyphen"; "greater"] tells the font to
     replace `->' by a glyph named `hyphen_greater.liga'. The latter is assumed
@@ -35,15 +39,29 @@ let kern_ligas : kern_liga list = [
   {glyphs = ["exclam"; "exclam"]; factor = 90};
 ]
 
+(** Returns the `ignore' rules corresponding to the given glyphs. *)
+let get_ignores : string list -> string list = function
+  | _ -> []
+
 (** General list iterator. *)
 let rec it_list f l a =
   match l with
   | [] -> a
   | e :: sl -> f e (it_list f sl a) sl
 
+(** Generates the glyph classes declarations. *)
+let gen_classes classes =
+  let f (name, glyphs) = sprintf "@%s = [%s];\n" name glyphs in
+  S.concat "" (L.map f classes)
+
+(** Generates the `ignore' statements. *)
+let gen_ignores rule_type rules =
+  let f rule = sprintf "%4signore %s %s;\n" "" rule_type rule in
+  S.concat "" (L.map f rules)
+
 (** Generates the default `ignore' statements. *)
 (* The purpose of these statements is described below. *)
-let gen_ignores glyphs rule_type =
+let gen_default_ignores glyphs rule_type =
   (* Disable the ligature if it's followed by a glyph identical to the last of
      the ligature (disables the ligature if there are many in a row). *)
   let rule1 =
@@ -56,8 +74,7 @@ let gen_ignores glyphs rule_type =
     match glyphs with
     | [] -> raise (Failure "rule2")
     | s :: l -> s :: (s ^ "'") :: l in
-  let rules = [S.concat " " rule1; S.concat " " rule2] in
-  L.map (fun rule -> sprintf "%4signore %s %s;\n" "" rule_type rule) rules
+  gen_ignores rule_type [S.concat " " rule1; S.concat " " rule2]
 
 (** Generates the substitution targets that will be used when generating the
     default substitutions. *)
@@ -86,9 +103,11 @@ let gen_lookup_generic name content =
 let gen_calt_lookups calt_ligas =
   let gen_lookup liga =
     let lookup_name = S.concat "_" liga in
-    let default_ignores = S.concat "" (gen_ignores liga "sub")
+    let default_ignores = gen_default_ignores liga "sub"
+    and custom_ignores = gen_ignores "sub" (get_ignores liga)
     and default_subs = S.concat "" (gen_subs liga lookup_name) in
-    gen_lookup_generic lookup_name (default_ignores ^ default_subs) in
+    let content = default_ignores ^ custom_ignores ^ default_subs in
+    gen_lookup_generic lookup_name content in
   L.map gen_lookup calt_ligas
 
 (** Generates the `pos' rule corresponding to the given kern ligature. *)
@@ -104,8 +123,10 @@ let gen_pos kern_liga =
 let gen_kern_lookups kern_ligas =
   let gen_lookup kern_liga =
     let lookup_name = S.concat "_" kern_liga.glyphs
-    and default_ignores = S.concat "" (gen_ignores kern_liga.glyphs "pos") in
-    gen_lookup_generic lookup_name (default_ignores ^ gen_pos kern_liga) in
+    and default_ignores = gen_default_ignores kern_liga.glyphs "pos"
+    and custom_ignores = gen_ignores "pos" (get_ignores kern_liga.glyphs) in
+    let content = default_ignores ^ custom_ignores ^ gen_pos kern_liga in
+    gen_lookup_generic lookup_name content in
   L.map gen_lookup kern_ligas
 
 let main () =
@@ -116,6 +137,7 @@ let main () =
       (fun kl1 kl2 -> L.length kl2.glyphs - L.length kl1.glyphs) kern_ligas in
   let calt_lookups = S.concat "\n\n" (gen_calt_lookups calt_ligas)
   and kern_lookups = S.concat "\n\n" (gen_kern_lookups kern_ligas) in
+  fprintf oc "%s\n" (gen_classes classes);
   fprintf oc "feature calt {\n%s\n} calt;\n\n" calt_lookups;
   fprintf oc "feature kern {\n%s\n} kern;\n" kern_lookups;
   close_out oc
