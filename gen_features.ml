@@ -44,7 +44,7 @@ let kern_ligas : kern_liga list = [
 (** Returns the `ignore' rules corresponding to the given glyphs. *)
 let get_ignores : string list -> string list = function
   | ["less"; "hyphen"] -> [
-      "less' hyphen' @digits";
+      "less' hyphen' [@digits percent]";
     ]
   | _ -> []
 
