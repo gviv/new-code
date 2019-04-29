@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1432776649
-ModificationTime: 1556198213
+ModificationTime: 1556528265
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -87,7 +87,7 @@ Grid
  -685.693359375 -541 l 1024
 EndSplineSet
 AnchorClass2: "Ancre-0" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-1" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-2" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-3" "sous-table 'mkmk' Signe sur signe dans Latin lookup 1"
-BeginChars: 65601 498
+BeginChars: 65603 500
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -15728,7 +15728,7 @@ EndChar
 StartChar: hyphen_greater.liga
 Encoding: 65599 -1 496
 Width: 600
-Flags: WO
+Flags: W
 HStem: 0 21G<137.059 177.152> 278 104<-470 306> 640 20G<234.941 274.848>
 LayerCount: 2
 Fore
@@ -15764,6 +15764,58 @@ SplineSet
  -154 0 l 1
  -432 330 l 1
  -50 660 l 1
+EndSplineSet
+EndChar
+
+StartChar: equal_greater.liga
+Encoding: 65601 -1 498
+Width: 600
+Flags: W
+HStem: 0 21G<137.059 177.152> 162 103<-488 171> 395 103<-451 225> 640 20G<234.941 274.848>
+LayerCount: 2
+Fore
+SplineSet
+154 0 m 1
+ 82 85 l 1
+ 171 162 l 1
+ -505 162 l 1
+ -488 265 l 1
+ 291 265 l 1
+ 366 330 l 1
+ 311 395 l 1
+ -468 395 l 1
+ -451 498 l 1
+ 225 498 l 1
+ 160 575 l 1
+ 258 660 l 1
+ 536 330 l 1
+ 154 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: less_equal.liga
+Encoding: 65602 -1 499
+Width: 600
+Flags: WO
+HStem: 0 21G<-170.848 -130.941> 162 103<-121 555> 395 103<-67 592> 640 20G<-73.1515 -33.0588>
+LayerCount: 2
+Fore
+SplineSet
+-154 0 m 1
+ -432 330 l 1
+ -50 660 l 1
+ 22 575 l 1
+ -67 498 l 1
+ 609 498 l 1
+ 592 395 l 1
+ -187 395 l 1
+ -262 330 l 1
+ -207 265 l 1
+ 572 265 l 1
+ 555 162 l 1
+ -121 162 l 1
+ -56 85 l 1
+ -154 0 l 1
 EndSplineSet
 EndChar
 EndChars

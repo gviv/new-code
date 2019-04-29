@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1432775446
-ModificationTime: 1556197273
+ModificationTime: 1556527835
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -90,7 +90,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 534774 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Ancre-0" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-1" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-2" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-3" "sous-table 'mkmk' Signe sur signe dans Latin lookup 1" "Ancre-4" "sous-table 'mkmk' Signe sur signe dans Latin lookup 2"
-BeginChars: 65601 498
+BeginChars: 65603 500
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -12745,16 +12745,16 @@ HStem: 195 60<88 512> 405 60<88 512>
 LayerCount: 2
 Fore
 SplineSet
-88 405 m 1
- 88 465 l 1
- 512 465 l 1
- 512 405 l 1
- 88 405 l 1
-88 195 m 1
- 88 255 l 1
- 512 255 l 1
- 512 195 l 1
- 88 195 l 1
+88 405 m 5
+ 88 465 l 5
+ 512 465 l 5
+ 512 405 l 5
+ 88 405 l 5
+88 195 m 5
+ 88 255 l 5
+ 512 255 l 5
+ 512 195 l 5
+ 88 195 l 5
 EndSplineSet
 EndChar
 
@@ -15148,21 +15148,21 @@ EndChar
 StartChar: hyphen_greater.liga
 Encoding: 65599 -1 496
 Width: 600
-Flags: WO
+Flags: W
 HStem: 300 60<-512 362>
 LayerCount: 2
 Fore
 SplineSet
-169 19 m 1
- 125 63 l 1
- 362 300 l 1
- -512 300 l 1
- -512 360 l 1
- 362 360 l 1
- 125 597 l 1
- 169 641 l 1
- 480 330 l 1
- 169 19 l 1
+169 19 m 5
+ 125 63 l 5
+ 362 300 l 5
+ -512 300 l 5
+ -512 360 l 5
+ 362 360 l 5
+ 125 597 l 5
+ 169 641 l 5
+ 480 330 l 5
+ 169 19 l 5
 EndSplineSet
 EndChar
 
@@ -15184,6 +15184,58 @@ SplineSet
  -169 19 l 1
  -480 330 l 1
  -169 641 l 1
+EndSplineSet
+EndChar
+
+StartChar: equal_greater.liga
+Encoding: 65601 -1 498
+Width: 600
+Flags: W
+HStem: 195 60<-512 257> 405 60<-512 257>
+LayerCount: 2
+Fore
+SplineSet
+-512 195 m 5
+ -512 255 l 5
+ 317 255 l 5
+ 392 330 l 5
+ 317 405 l 5
+ -512 405 l 5
+ -512 465 l 5
+ 257 465 l 5
+ 125 597 l 5
+ 169 641 l 5
+ 480 330 l 5
+ 169 19 l 5
+ 125 63 l 5
+ 257 195 l 5
+ -512 195 l 5
+EndSplineSet
+EndChar
+
+StartChar: less_equal.liga
+Encoding: 65602 -1 499
+Width: 600
+Flags: WO
+HStem: 195 60<-257 512> 405 60<-257 512>
+LayerCount: 2
+Fore
+SplineSet
+512 465 m 5
+ 512 405 l 5
+ -317 405 l 5
+ -392 330 l 5
+ -317 255 l 5
+ 512 255 l 5
+ 512 195 l 5
+ -257 195 l 5
+ -125 63 l 5
+ -169 19 l 5
+ -480 330 l 5
+ -169 641 l 5
+ -125 597 l 5
+ -257 465 l 5
+ 512 465 l 5
 EndSplineSet
 EndChar
 EndChars

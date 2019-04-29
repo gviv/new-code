@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1432775451
-ModificationTime: 1556197838
+ModificationTime: 1556528035
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -71,7 +71,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 65460 12 12
+WinInfo: 0 12 12
 BeginPrivate: 8
 BlueValues 31 [-12 0 510 523 660 672 750 766]
 OtherBlues 11 [-217 -205]
@@ -92,7 +92,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "Ancre-0" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-1" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-2" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-3" "sous-table 'mkmk' Signe sur signe dans Latin lookup 1"
-BeginChars: 65601 498
+BeginChars: 65603 500
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -13113,16 +13113,16 @@ VStem: 70 460<162 265 162 265 395 498 162 498>
 LayerCount: 2
 Fore
 SplineSet
-70 395 m 1
- 70 498 l 1
- 530 498 l 1
- 530 395 l 1
- 70 395 l 1
-70 162 m 1
- 70 265 l 1
- 530 265 l 1
- 530 162 l 1
- 70 162 l 1
+70 395 m 5
+ 70 498 l 5
+ 530 498 l 5
+ 530 395 l 5
+ 70 395 l 5
+70 162 m 5
+ 70 265 l 5
+ 530 265 l 5
+ 530 162 l 5
+ 70 162 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -15586,7 +15586,7 @@ StartChar: hyphen_greater.liga
 Encoding: 65599 -1 496
 Width: 600
 InSpiro: 1
-Flags: WO
+Flags: HW
 HStem: 0 21G<134 174> 278 104<-530 262> 640 20G<134 174>
 LayerCount: 2
 Fore
@@ -15634,6 +15634,58 @@ SplineSet
  -154 0 l 1
  -484 330 l 1
  -154 660 l 1
+EndSplineSet
+EndChar
+
+StartChar: equal_greater.liga
+Encoding: 65601 -1 498
+Width: 600
+Flags: W
+HStem: 0 21G<134 174> 162 103<-530 146> 395 103<-530 146> 640 20G<134 174>
+LayerCount: 2
+Fore
+SplineSet
+154 0 m 5
+ 69 85 l 5
+ 146 162 l 5
+ -530 162 l 5
+ -530 265 l 5
+ 249 265 l 5
+ 314 330 l 5
+ 249 395 l 5
+ -530 395 l 5
+ -530 498 l 5
+ 146 498 l 5
+ 69 575 l 5
+ 154 660 l 5
+ 484 330 l 5
+ 154 0 l 5
+EndSplineSet
+EndChar
+
+StartChar: less_equal.liga
+Encoding: 65602 -1 499
+Width: 600
+Flags: HWO
+HStem: 0 21G<-174 -134> 162 103<-146 530> 395 103<-146 530> 640 20G<-174 -134>
+LayerCount: 2
+Fore
+SplineSet
+-154 0 m 5
+ -484 330 l 5
+ -154 660 l 5
+ -69 575 l 5
+ -146 498 l 5
+ 530 498 l 5
+ 530 395 l 5
+ -249 395 l 5
+ -314 330 l 5
+ -249 265 l 5
+ 530 265 l 5
+ 530 162 l 5
+ -146 162 l 5
+ -69 85 l 5
+ -154 0 l 5
 EndSplineSet
 EndChar
 EndChars

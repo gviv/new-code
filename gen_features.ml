@@ -28,6 +28,8 @@ type kern_liga = {
 let calt_ligas : calt_liga list = [
   ["hyphen"; "greater"];
   ["less"; "hyphen"];
+  ["equal"; "greater"];
+  ["less"; "equal"];
 ]
 
 (** The kern ligatures to generate. *)
