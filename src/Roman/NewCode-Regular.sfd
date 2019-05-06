@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1432775446
-ModificationTime: 1556527835
+ModificationTime: 1557162635
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -90,7 +90,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 534774 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Ancre-0" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-1" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-2" "sous-table 'mark' Positionnement de signe dans Latin lookup 0" "Ancre-3" "sous-table 'mkmk' Signe sur signe dans Latin lookup 1" "Ancre-4" "sous-table 'mkmk' Signe sur signe dans Latin lookup 2"
-BeginChars: 65603 500
+BeginChars: 65602 499
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -15210,32 +15210,6 @@ SplineSet
  125 63 l 5
  257 195 l 5
  -512 195 l 5
-EndSplineSet
-EndChar
-
-StartChar: less_equal.liga
-Encoding: 65602 -1 499
-Width: 600
-Flags: WO
-HStem: 195 60<-257 512> 405 60<-257 512>
-LayerCount: 2
-Fore
-SplineSet
-512 465 m 5
- 512 405 l 5
- -317 405 l 5
- -392 330 l 5
- -317 255 l 5
- 512 255 l 5
- 512 195 l 5
- -257 195 l 5
- -125 63 l 5
- -169 19 l 5
- -480 330 l 5
- -169 641 l 5
- -125 597 l 5
- -257 465 l 5
- 512 465 l 5
 EndSplineSet
 EndChar
 EndChars
