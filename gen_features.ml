@@ -43,6 +43,8 @@ let kern_ligas : kern_liga list = [
   {glyphs = ["exclam"; "exclam"]; factor = 90};
   {glyphs = ["bar"; "bar"]; factor = 70};
   {glyphs = ["question"; "colon"]; factor = 70};
+  {glyphs = ["greater"; "greater"]; factor = 70};
+  {glyphs = ["less"; "less"]; factor = 70};
 ]
 
 (** Returns the `ignore' rules corresponding to the given glyphs. *)
