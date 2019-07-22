@@ -53,6 +53,9 @@ let get_ignores : string list -> string list = function
   | ["less"; "hyphen"] -> [
       "less' hyphen' [@digits percent]";
     ]
+  | ["greater"; "greater"] -> [
+      "[a-z A-Z] greater' greater' [space parenleft]";
+    ]
   | _ -> []
 
 (** General list iterator. *)
