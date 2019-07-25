@@ -54,7 +54,7 @@ let get_ignores : string list -> string list = function
       "less' hyphen' [@digits percent]";
     ]
   | ["greater"; "greater"] -> [
-      "[a-z A-Z] greater' greater' [space parenleft]";
+      "[a-z A-Z] greater' greater' [uni00A0 space parenleft]";
     ]
   | _ -> []
 
